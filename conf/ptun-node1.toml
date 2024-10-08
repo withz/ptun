@@ -1,0 +1,17 @@
+Token = "abab"
+ServerHost = "1.1.1.1"
+ServerPort = 10001
+
+[Stun]
+Type = "simple"
+Host = "1.1.1.1"
+PrimaryPort = 10002
+SecondaryPort = 10003
+
+[Net]
+Tun = "tun8"
+IP = "192.168.58.11/24"
+
+[[Net.Routers]]
+Next = "192.168.58.12"
+Networks = ["192.168.56.100/32"]

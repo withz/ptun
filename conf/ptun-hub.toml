@@ -1,0 +1,8 @@
+Token = "abab"
+
+ServerPort = 10001
+
+[Stun]
+Type = "simple"
+PrimaryPort = 10002
+SecondaryPort = 10003
